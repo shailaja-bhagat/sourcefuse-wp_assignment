@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Sourcefuse
+Theme URI: https://wordpress.org/themes/sourcefuse/
+Author: Shailaja Bhagat
+Author URI: https://profiles.wordpress.org/shailajabhagat/
+Description: Sourcefuse is a custom theme used for development purpose
+Version: 1.7
+*/
+
+@font-face {
+    font-family: 'gothamblack';
+    src: url('http://localhost/wordpress/wp-content/themes/sourcefuse/assets/fonts/gotham/gotham-black-webfont.woff2') format('woff2'),
+         url('http://localhost/wordpress/wp-content/themes/sourcefuse/assets/fonts/gotham/gotham-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothambold';
+    src: url('http://localhost/wordpress/wp-content/themes/sourcefuse/assets/fonts/gotham/gotham-bold-webfont.woff2') format('woff2'),
+         url('http://localhost/wordpress/wp-content/themes/sourcefuse/assets/fonts/gotham/gotham-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothambook';
+    src: url('http://localhost/wordpress/wp-content/themes/sourcefuse/assets/fonts/gotham/gotham-book-webfont.woff2') format('woff2'),
+         url('http://localhost/wordpress/wp-content/themes/sourcefuse/assets/fonts/gotham/gotham-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gothamlight';
+    src: url('http://localhost/wordpress/wp-content/themes/sourcefuse/assets/fonts/gotham/gotham-light-webfont.woff2') format('woff2'),
+         url('http://localhost/wordpress/wp-content/themes/sourcefuse/assets/fonts/gotham/gotham-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gothammedium';
+    src: url('http://localhost/wordpress/wp-content/themes/sourcefuse/assets/fonts/gotham/gotham-medium-webfont.woff2') format('woff2'),
+         url('http://localhost/wordpress/wp-content/themes/sourcefuse/assets/fonts/gotham/gotham-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gothamthin';
+    src: url('http://localhost/wordpress/wp-content/themes/sourcefuse/assets/fonts/gotham/gotham-thin-webfont.woff2') format('woff2'),
+         url('http://localhost/wordpress/wp-content/themes/sourcefuse/assets/fonts/gotham/gotham-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

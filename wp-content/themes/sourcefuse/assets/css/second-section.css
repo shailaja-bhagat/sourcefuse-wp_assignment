@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Sourcefuse
+Theme URI: https://wordpress.org/themes/sourcefuse/
+Author: Shailaja Bhagat
+Author URI: https://profiles.wordpress.org/shailajabhagat/
+Description: Sourcefuse is a custom theme used for development purpose
+Version: 1.7
+*/
+
+img.img-responsive.pull-right {
+    max-width: 115%;
+}
+section.home-second-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+h2.section-title.left-in {
+    font-size: 45px;
+	font-family: 'gothambook';
+}
+.two-col-structure h3 {
+    font-family: 'gothamblack';
+    font-size: 45px;
+}
+.description p, .two-col-structure h6 {
+    color: #717171;
+}
+.btn-wrapper a.learn-more-btn {
+    background-color: #19a5ff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 30px;
+}
+.description-wrapper.left-in .btn-wrapper {
+    margin-top: 60px;
+}
+.two-col-structure {
+    margin: 40px 0px;
+}
+
+
+/* Four Col Section CSS */
+.four-col-section {
+    padding: 40px 0px;
+}
+.img-text-blk {
+    border: 1px solid #eee;
+    padding: 20px 30px;
+    min-height: 34vh;
+    margin: 0px 10px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 5px #dfdbdb;
+}
+.img-text-blk img.img-responsive.pull-right {
+    margin-bottom: 15px;
+}
+.img-text-blk h6 {
+    font-family: 'gothambold';
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	h2.section-title.left-in {
+		font-size: 30px;
+		font-family: 'gothambook';
+	}
+    img.img-responsive.pull-right {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    .img-text-blk {
+        margin: 10px 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

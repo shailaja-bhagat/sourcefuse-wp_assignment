@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Sourcefuse
+Theme URI: https://wordpress.org/themes/sourcefuse/
+Author: Shailaja Bhagat
+Author URI: https://profiles.wordpress.org/shailajabhagat/
+Description: Sourcefuse is a custom theme used for development purpose
+Version: 1.7
+*/
+
+body{
+	background-color: black;
+}
+
+header {
+	width: 100%;
+	transition: all 0.5s ease;
+	height: auto;
+}
+  
+header .header-inner {
+    width: calc(var(--width-100) - 48px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+header .header-left {
+    padding: 0;
+}
+
+header .header-left a {
+	display: inline-block;
+}
+
+header .header-left a img {
+	width: 189px;
+	object-fit: contain;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

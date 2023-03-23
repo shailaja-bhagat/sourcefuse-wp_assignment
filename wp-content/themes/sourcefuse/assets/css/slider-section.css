@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-prev:after, 
+.swiper-button-next:after,
+.swiper-button-next, 
+.swiper-button-prev{
+    color: #ffffff !important;
+}
+
+.swiper-slide.slide-img-blk .slide-image-block, 
+.swiper-slide.slide-img-blk .slide-image-block img {
+    border-radius: 10px !important;
+}
+
+.swiper-slide.slide-img-blk .slide-image-block {
+    margin: 0px 5px;
+}
+section.slider-section.featured-art {
+    background-color: #040404;
+    padding: 60px 0px;
+}
+section.slider-section.featured-art h2, 
+section.slider-section.featured-art h6 {
+    color: #f0eded;
+    font-family: 'gothambook';
+    text-align: center;
+}
+section.slider-section.featured-art h5{
+    color: #ffffff;
+    font-family: 'gothambook';
+    text-align: left;
+    line-height: 20px;
+    margin-top: 20px;
+}
+section.slider-section.featured-art p{
+    color: #ffffff;
+    font-family: 'gothamthin';
+    font-size: 13px;
+    text-align: left;
+}
+.swiper.mySwiper.swiper-initialized.swiper-horizontal {
+    padding: 40px 0px;
+}
+.swiper-backface-hidden .swiper-slide {
+    background-color: black;
+}
+.btn-wrapper.read-more-btn.text-center {
+    margin-top: 40px;
+}
+.swiper .swiper-slide .slide-image-block:hover .content-section {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    background: linear-gradient(45deg, #19a5ff 0%, rgba(94,103,98,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02c264', endColorstr='#b35e6762',GradientType=1 );
+    z-index: 3;
+    opacity: 0.85;
+    display: block;
+}
+.swiper .swiper-slide .slide-image-block:hover .content-section a {
+    padding: 8px 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'gothammedium';
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.swiper .swiper-slide .slide-image-block .content-section{
+    display: none;
+    padding: 90px 25px 0px;
+}
+.swiper .swiper-slide .slide-image-block{
+    position: relative;
+} 
+.swiper-slide.slide-img-blk.swiper-slide-active {
+    text-align: left;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+	.slider-section .swiper .swiper-slide .slide-image-block .content-section {
+		padding: 90px 15px 0px;
+	}
+	section.slider-section.featured-art h5{
+		font-size: 24px;
+		line-height: 35px;
+	}
+	section.slider-section.featured-art p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+    
+	span.content-inner-wrapper a {
+		font-size: 16px;
+	}
+	span.content-inner-wrapper a {
+		font-size: 10px !important;
+		padding: 4px !important;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    section.slider-section.featured-art h5 {
+        font-size: 20px;
+    }
+    .swiper .swiper-slide .slide-image-block .content-section{
+        padding: 50px 15px 0px;
+    }
+    section.slider-section.featured-art p {
+        font-size: 11px;
+    }
+    .swiper .swiper-slide .slide-image-block:hover .content-section a{
+        padding: 5px;
+        font-size: 10px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .swiper .swiper-slide .slide-image-block:hover .content-section a {
+        font-size: 12px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    section.slider-section.featured-art h5{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    section.slider-section.featured-art p{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Sourcefuse
+Theme URI: https://wordpress.org/themes/sourcefuse/
+Author: Shailaja Bhagat
+Author URI: https://profiles.wordpress.org/shailajabhagat/
+Description: Sourcefuse is a custom theme used for development purpose
+Version: 1.7
+*/
+
+body{
+    font-family: 'gothamblack';
+    background-color: black;
+}
+
+.banner-image .top-block h1 {
+	font-family: 'gothamblack';
+	font-size: 58px;
+	line-height: 65px;
+	letter-spacing: 0px;
+	margin-bottom: 60px;
+}
+
+.parallaxParent {
+	height: 70vh;
+	overflow: hidden;
+	padding-top: 50px;
+}
+
+.parallaxParent .banner-image {
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	background-position: center;
+	transition: all 0.5s ease;
+}
+.parallaxParent .content-wrapper {
+	margin: calcRem(50) auto 0;
+	width: calc(var(--width-100) - 48px);
+}
+.parallaxParent .content-wrapper .small-title {
+	font-family: 'gothammedium';
+	color: var(--brand-primary);
+	font-size: 34px;
+	line-height: 45px;
+	margin-bottom: 20px;
+}
+.parallaxParent .content-wrapper .small-text {
+	color: var(--color-white);
+	background-color: var(--brand-primary);
+	text-transform: uppercase;
+	display: inline-block;
+}
+.parallaxParent .content-wrapper h1 {
+	color: var(--color-white);
+	margin-bottom: calcRem(22);
+}
+.parallaxParent .content-wrapper a.learn-more-btn {
+    width: 170px;
+    display: block;
+    background-color: #f00c18;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'gothammedium';
+}
+img.side-logo {
+    margin-bottom: 40px;
+    max-width: 190px;
+    width: 100%;
+}
+.image-block {
+    padding-left: 30%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.parallaxParent .content-wrapper .small-title {
+		font-size: 24px;
+		line-height: 34px;
+	}
+	.banner-image .top-block h1 {
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.parallaxParent {
+		height: 50vh;
+		overflow: hidden;
+		padding-top: 10px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.banner-image .top-block h1 {
+		font-size: 35px;
+		line-height: 45px;
+		margin-bottom: 15px;
+	}
+	.parallaxParent{
+		padding-top: 0px;
+		height: 50vh;
+	}
+	.parallaxParent .content-wrapper .small-title{
+		font-size: 25px;
+	}
+	.description-wrapper h2.section-title.left-in{
+		font-size: 35px;
+	}
+	.description-wrapper .two-col-structure h3{
+		font-size: 35px;
+	}
+	.description p, .two-col-structure h6{
+		font-size: 14px;
+	}
+	.description-wrapper .btn-wrapper a.learn-more-btn{
+		font-size: 12px;
+	}
+	.home-second-section .description-wrapper.left-in .btn-wrapper{
+		margin-top: 30px;
+	}
+	.four-col-section .img-text-blk {
+		padding: 10px 7px;
+		min-height: 35vh;
+		margin: 0px 0px;
+	}
+	img.img-responsive.pull-right {
+		height: 40%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.banner-image .top-block h1{
+		font-size: 45px;
+	}
+	h2.section-title.left-in, .two-col-structure h3{
+		font-size: 35px;
+	}
+	.four-col-section .img-text-blk{
+		padding: 15px;
+    	min-height: 35vh;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
